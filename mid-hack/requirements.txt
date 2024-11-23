@@ -1,0 +1,14 @@
+# Core dependencies
+torch>=1.9.0; platform_system == "Linux" or platform_system == "Darwin"
+torch>=1.9.0+cu117; platform_system == "Windows" and extra == "gpu"  # Example for Windows GPU
+
+# Common dependencies
+numpy>=1.21.0
+opencv-python>=4.5.3
+matplotlib>=3.4.3
+
+# FastSAM - Replace this with appropriate source if not on PyPI
+fastsam>=0.1.0
+
+# Optional: Use torchvision if required for working with models
+torchvision>=0.10.0; platform_system != "Windows"  # Assuming Windows uses cu117
