@@ -14,7 +14,7 @@ This project presents an innovative solution for identifying and categorizing pr
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/retail-product-identification.git
+   git clone https://github.com/karuto12/retail-product-identification.git
    cd retail-product-identification
    ```
 2. **Install Dependencies**:
